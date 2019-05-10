@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"Register"
+			],
+			[
 				"max",
 				"maxfil"
 			],
@@ -156,20 +160,38 @@
 	"buffers":
 	[
 		{
-			"file": "/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghv2.py",
+			"file": "src1/src1/settings.py",
 			"settings":
 			{
-				"buffer_size": 1361,
+				"buffer_size": 3100,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/media/danielvide/DANI64GB/examen/g4hfallos.py",
+			"file": "src1/boletin/models.py",
 			"settings":
 			{
-				"buffer_size": 1645,
+				"buffer_size": 417,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src1/boletin/admin.py",
+			"settings":
+			{
+				"buffer_size": 192,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/pub/asir/danielvide/tfh.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -205,12 +227,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/pub/asir/danielvide/prueba_django",
 		"/home/pub/asir/danielvide/prueba_django/src1",
-		"/home/pub/asir/danielvide/prueba_django/src1/src1"
+		"/home/pub/asir/danielvide/prueba_django/src1/boletin"
 	],
 	"file_history":
 	[
+		"/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghv2.py",
+		"/media/danielvide/DANI64GB/examen/g4hfallos.py",
 		"/home/pub/asir/danielvide/pruebita.py",
 		"/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghjaime.py",
 		"/media/danielvide/DANI64GB/ghv2.js",
@@ -224,7 +247,6 @@
 		"/media/danielvide/DANI64GB/g4h_files/g4h3.py",
 		"/home/pub/asir/danielvide/public_html/LM/script/1.js",
 		"/media/danielvide/DANI64GB/g4h.html",
-		"/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghv2.py",
 		"/home/pub/asir/danielvide/Descargas/ej.py",
 		"/home/pub/asir/danielvide/16.py",
 		"/home/pub/asir/danielvide/Descargas/ej",
@@ -318,30 +340,87 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghv2.py",
+					"file": "src1/src1/settings.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1361,
+						"buffer_size": 3100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1353,
-								1353
+								1079,
+								1079
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src1/boletin/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src1/boletin/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -351,29 +430,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/media/danielvide/DANI64GB/examen/g4hfallos.py",
+					"buffer": 3,
+					"file": "/home/pub/asir/danielvide/tfh.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1645,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1545,
-								1545
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1083.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -459,7 +537,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 155.0,
+	"side_bar_width": 138.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
