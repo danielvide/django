@@ -6,6 +6,9 @@ from .forms import RegForm
 from .models import Registrado
 # Create your views here.
 def inicio(request):
+	titulo= "que dise el tio"
+	if request.user.is_authenticated():
+		titulo= "Illo bienvenido %s " %(request.user)
 	form = RegForm(request.POST or None)
 	if form.is_valid():
 		form_data=form.cleaned_data
@@ -14,6 +17,7 @@ def inicio(request):
 		obj=Registrado.objects.create(email=abc,nombre=abc2)
 		
 	context= {
+		"titulo": titulo,
 		"form": form,
 	}
 	return render(request,"inicio.html",context)
