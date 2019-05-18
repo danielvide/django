@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
-from .forms import RegForm, RegModelForm
+from .forms import RegModelForm ,ContactForm
 from .models import Registrado
 # Create your views here.
 def inicio(request):
@@ -28,7 +28,7 @@ def inicio(request):
 		}
 		if not nombre:
 			context={
-				"titulo": "Gracias Anonimo"
+				"titulo": "Gracias %s " %(email)
 			}
 		#form_data=form.cleaned_data
 		#abc=form_data.get("email")
@@ -37,3 +37,17 @@ def inicio(request):
 		
 	
 	return render(request,"inicio.html",context)
+
+
+def contact(request):
+	form= ContactForm(request.POST or None)
+	if form.is_valid():
+		for key,value in form.cleaned_data.iteritems():
+			print key,value
+		#email= form.cleaned_data.get("email")
+		#mensaje= form.cleaned_data.get("mensaje")
+		#nombre= form.cleaned_data.get("nombre")
+	context= {
+		"form": form,
+	}
+	return render(request,"forms.html",context)

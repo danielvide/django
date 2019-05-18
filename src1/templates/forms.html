@@ -1,9 +1,10 @@
-<!-- <h1>HOLA</h1> -->
-{{titulo}}
+
+{{titulo}}<br>
+{{request.user}}
 <hr/>
 
 <form method="POST" action="">{% csrf_token %}
 	
-{{form.as_p}}
+{{ form.as_p }}
 <input type="submit" value="Registrame">
 </form>
