@@ -180,17 +180,19 @@
 			"file": "src1/boletin/views.py",
 			"settings":
 			{
-				"buffer_size": 489,
+				"buffer_size": 1328,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "<!--<h1>HOLA</h1> -->\n{{titulo}}<br/>\n{{request.user}}\n\n<form method=\"POST\" action=\"\">{% csrf_token %}\n\t\n{{form.as_p}}\n<input type=\"submit\" value=\"Registrame\">\n</form>",
 			"file": "src1/templates/inicio.html",
+			"file_size": 153,
+			"file_write_time": 132028412125799638,
 			"settings":
 			{
-				"buffer_size": 126,
-				"encoding": "UTF-8",
+				"buffer_size": 167,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,7 +209,7 @@
 			"file": "src1/boletin/admin.py",
 			"settings":
 			{
-				"buffer_size": 429,
+				"buffer_size": 483,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -216,7 +218,7 @@
 			"file": "src1/src1/urls.py",
 			"settings":
 			{
-				"buffer_size": 831,
+				"buffer_size": 887,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -225,7 +227,7 @@
 			"file": "src1/boletin/forms.py",
 			"settings":
 			{
-				"buffer_size": 119,
+				"buffer_size": 653,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -269,6 +271,7 @@
 	],
 	"file_history":
 	[
+		"/home/pub/asir/danielvide/Descargas/wa.py",
 		"/home/pub/asir/danielvide/tfh.py",
 		"/media/danielvide/DANI64GB/LM/PYTHON/CHECKIO/ghv2.py",
 		"/media/danielvide/DANI64GB/examen/g4hfallos.py",
@@ -417,23 +420,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 489,
+						"buffer_size": 1328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								408,
-								408
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -445,15 +449,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 126,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								55,
+								55
 							]
 						],
 						"settings":
@@ -464,7 +468,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -492,7 +496,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -501,43 +505,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src1/src1/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 831,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								730,
-								730
+								116,
+								116
 							]
 						],
 						"settings":
@@ -552,20 +528,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src1/boletin/forms.py",
+					"buffer": 5,
+					"file": "src1/src1/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								0,
+								0
 							]
 						],
 						"settings":
@@ -577,6 +553,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src1/boletin/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

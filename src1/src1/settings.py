@@ -27,6 +27,15 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'dani.villa27199@gmail.com'
+EMAIL_HOST_PASSWORD = 'villa.asir'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+'''Para usar gmail hay que desbloquear captcha
+https://accounts.google.com/displayunlockcaptcha'''
+
 
 # Application definition
 
