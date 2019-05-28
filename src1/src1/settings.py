@@ -40,12 +40,16 @@ https://accounts.google.com/displayunlockcaptcha'''
 # Application definition
 
 INSTALLED_APPS = [
+    #apps django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #apps terceros
+    'crispy_forms',
+    #apps mias
     'boletin',
 ]
 
@@ -60,6 +64,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'src1.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 TEMPLATES = [
     {
