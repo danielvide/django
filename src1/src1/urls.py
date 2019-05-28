@@ -19,10 +19,12 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 from boletin import views
+from .views import about
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^contact/$', views.contact, name='contact'),
     url(r'^$', views.inicio, name='inicio'),
+    url(r'^about/$', about, name='about'),
 
 ]
 
